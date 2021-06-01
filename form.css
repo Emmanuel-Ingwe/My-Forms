@@ -1,0 +1,73 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: url(lebronJamesDunk.jpg) no-repeat;
+	background-size: cover;
+}
+
+@media screen and (max-width: 900px) {
+	body {
+		background: url(lebronJamesDunk.jpg) repeat;
+		background-size: cover;
+	}
+}
+
+.login-box {
+	width: 280px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+.login-box h1 {
+	float: left;
+	font-size: 40px;
+	border-bottom: 6px solid darkred;
+	margin-bottom: 50px;
+	padding: 13px 0;
+}
+
+.textbox {
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 1px solid darkred;
+}
+
+.textbox i {
+	width: 26px;
+	float: left;
+	text-align: center;
+}
+
+.textbox input {
+	border: none;
+	outline: none;
+	background: none;
+	color: whitesmoke;
+	font-size: 18px;
+	width: 80px;
+	float: left;
+	margin: 0 10px;
+}
+
+.btn {
+	cursor: pointer;
+	background: none;
+	border: 2px solid darkred;
+	width: 100%;
+	padding: 5px;
+	margin-top: 5px;
+	color: deepskyblue;
+	font-weight: bold;
+}
+
+.btn:hover {
+	border: 2px solid rgb(45, 44, 99);
+}
