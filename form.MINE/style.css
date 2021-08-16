@@ -1,0 +1,119 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Georgia;
+	background: url(/Screenshot\ \(14\).png);
+}
+
+.box {
+	padding: 60px;
+	position: absolute;
+	width: 350px;
+	top: 26%;
+	left: 33%;
+	border: 1px solid rgba(221, 167, 85, 0.867);
+	border-radius: 70px;
+}
+
+span {
+	font-size: 35px;
+	font-weight: 900;
+	color: rgb(82, 10, 10);
+}
+
+.box input[type = text],
+.box input[type = email] {
+	background: 0;
+	margin: 20px auto;
+	padding: 10px 10px;
+	border-radius: 20px;
+	text-align: center;
+	justify-content: center;
+	display: block;
+	border: 1px solid rgb(92, 4, 4);
+	transition: 0.8s;
+}
+
+.box input[type = text]:hover,
+.box input[type = email]:hover {
+	border: 1px solid aqua;
+	letter-spacing: 6px;
+	color: rgb(215, 243, 243);
+	font-weight: 600;
+	width: 250px;
+}
+
+.submit {
+	background: 0;
+	width: 113px;
+	margin: 20px auto;
+	padding: 10px 10px;
+	border-radius: 20px;
+	text-align: center;
+	justify-content: center;
+	display: block;
+	color: rgb(218, 65, 141);
+	border: 1px solid rgb(247, 138, 14);
+	transition: 0.7s;
+}
+
+a {
+	text-decoration: none;
+}
+
+.submit:hover {
+	border: 1px solid aqua;
+	letter-spacing: 4px;
+	color: rgb(215, 243, 243);
+	font-weight: 500;
+	width: 100px;
+}
+
+.box h2 {
+	font-family: 'Courier New', Courier, monospace;
+	color: rgba(167, 14, 65, 0.89);
+	margin: 10px 75px;
+	background: linear-gradient(red, yellow, blue, green, violet);
+	border-radius: 40px;
+	text-align: center;
+	width: 200px;
+	transition: 0.9s;
+}
+
+.box h2:hover {
+	letter-spacing: 5px;
+	color: darkblue;
+	background: radial-gradient(red, yellow, lightblue, green, purple);
+}
+
+.anim {
+	color: whitesmoke;
+	text-align: center;
+	padding: 10px;
+	transition-duration: 0.9s;
+	transition-timing-function: ease-in;
+	border: 2px solid firebrick;
+}
+
+.star {
+	color: rgba(231, 235, 25, 0.952);
+	transition: 1s;
+}
+
+.star:hover {
+	font-weight: 900;
+	color: aqua;
+}
+
+.anim:hover {
+	text-decoration: overline;
+	text-decoration-thickness: 1px;
+	text-decoration-style: dotted;
+	text-decoration-color: rgb(148, 230, 241);
+	word-spacing: 6px;
+	letter-spacing: 4px;
+	border: 1px dashed aqua;
+	font-family: monospace;
+	text-transform: uppercase;
+	color: pink;
+}

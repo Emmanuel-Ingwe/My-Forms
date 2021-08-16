@@ -1,5 +1,5 @@
 body {
-	background: black;
+	background: #333;
 }
 
 .box {
@@ -7,10 +7,11 @@ body {
 	width: 200px;
 	height: 200px;
 	position: relative;
-	animation-name: IngweAnimation;
+	/* animation-name: IngweAnimation;
 	animation-duration: 4s;
 	animation-iteration-count: 2;
-	animation-fill-mode: forwards;
+	animation-fill-mode: forwards; */
+	animation: IngweAnimation 9s forwards infinite;
 }
 
 @keyframes IngweAnimation {
@@ -22,7 +23,7 @@ body {
 	}
 	25% {
 		background-color: red;
-		left: 300px;
+		left: 700px;
 		top: 0px;
 		border-radius: 50% 0 0 0;
 	}
@@ -33,8 +34,8 @@ body {
 		border-radius: 50% 50% 0 0;
 	}
 	75% {
-		background-color: pink;
-		left: 0px;
+		background-color: blue;
+		left: 150px;
 		top: 300px;
 		border-radius: 50% 50% 50% 0;
 	}

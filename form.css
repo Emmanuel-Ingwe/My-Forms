@@ -7,10 +7,13 @@ body {
 	background-size: cover;
 }
 
-@media screen and (max-width: 900px) {
+@media (max-width: 798px) {
 	body {
-		background: url(lebronJamesDunk.jpg) repeat;
+		background: url(lebronJamesDunk.jpg);
 		background-size: cover;
+		background-position: center;
+		background-size: 1200px;
+		background-position: top;
 	}
 }
 
